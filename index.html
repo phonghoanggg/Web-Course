@@ -407,7 +407,7 @@
                         </div>
                     </div>
                     <div class="authen--form__pilicy">
-                        <p>Bằng việc đăng ký, bạn đã đồng ý với Shoppe về
+                        <p>Bằng việc đăng ký, bạn đã đồng ý với F8 về
                             <a href="" class="authen--form__pilicy--infor">Điều khoản dịch vụ</a> &
                             <a href="" class="authen--form__pilicy--infor">Chính sách bảo mật </a>  </p>
                       
@@ -530,5 +530,27 @@
             }) 
     </script>
     <script src="./app.js"></script>
+    <script src="./rules/Form.js"></script>
+    <script>
+        // Kết quả như mong muốn
+        Form({
+            form: '.authen--form--register',
+            messError: '.form-mess',
+            boxError: '.authen--form__form--login',
+            ruler: [
+                Form.isRequired('#email'),
+                Form.isEmail('#email'),
+
+                Form.isRequired('#password'),
+                Form.isPassWord('#password', 8 ),
+
+                Form.isRequired('#oldPassword'),
+                Form.isOldPassWord('#oldPassword', function() {
+                    return document.querySelector('.authen--form--register #password').value
+                }, 'Mật khẩu nhập lại không chính xác')
+            ]
+        })
+        
+    </script>
 </body>
 </html>
