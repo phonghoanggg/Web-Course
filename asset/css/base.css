@@ -109,6 +109,38 @@ html {
     margin-top: 80px;
     display: flex;
     justify-content: flex-end;
+
+}
+.btn {
+    min-width: 132px;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:focus {
+    border-color: rgb(209, 40, 40);
+}
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn.btn--back:hover {
+    background-color: #d9d9d9;
+}
+.btn.btn-disable {
+    background-color: #a7a7a7;
+    color: #707070;
+    cursor: default;
+}
+.btn--primary {
+    background-color: var(--primary-color);
+    color: #fff;
 }
 
 .btn.btn--back {
