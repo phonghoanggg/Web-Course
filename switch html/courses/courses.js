@@ -75,6 +75,7 @@ boxAdd.addEventListener('click', function(e) {
 })
 
 
+
 // Courses section
 const courseList = $('.courses__content-courses-list-cover');
 const newCourseList = $('.courses__content-courses-list-new');
@@ -205,7 +206,7 @@ for(let i = 0; i < testLink.length; i++) {
                 </div>
                 <div class="notice__warn-content">
                     <h3 class="notice__warn-heading">Thông báo</h3>
-                    <span class="notice__warn-message">Nội dung đang trong quá trình hoàn thiện !</span>
+                    <span class="notice__warn-message">Bạn chưa đăng ký khóa học này!.</span>
                 </div>
             `
             noticeWarn.appendChild(warning)
