@@ -38,6 +38,7 @@
 }
 .page__content-quiz-answer {
     margin-top: 20px;
+    padding-left: 50px;
 }
 .page__content-quiz-answer h2 {
     border-style: solid;
@@ -56,4 +57,22 @@
 
 .page__content .page__content-quiz {
     margin-top: 50px;
+}
+.page__content-quiz-select {
+    font-size: 25px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #ccc;
+    border-color: transparent;
+    color: #000;
+}
+.page__content-quiz-select:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.page__content-quiz-btn {
+    justify-content: end;
+    display: flex;
+    padding-right: 150px;
 }
