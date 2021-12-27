@@ -33,6 +33,13 @@ html {
     padding-right: 24px;
     width: 25%;
 }
+.gird_colum-7 {
+    width: 66.66667%;
+    padding: 0 0 68px 44px;
+}
+.gird_colum-3 {
+    width: 33.3333%;
+}
 /* Đăng ký đăng nhập */
 .modal__body {
     overflow: hidden;

@@ -314,8 +314,8 @@
                                     <span>Đáp án Dddddddddddddd</span>
                                 </h2>
                         </div>
-                        <div class="page__content-quiz-btn" onclick="select_btn()">
-                            <button class="page__content-quiz-select" id="btn">Chọn</button>     
+                        <div class="page__content-quiz-btn" >
+                            <button class="page__content-quiz-select" onclick="select_btn()">Chọn</button>     
                         </div>
                     </div>
                    
@@ -347,11 +347,12 @@
             </div>
         </div>
     </div>
-    <script src="./switch html/code/code.js"></script>
-</body>
     <script>
         function select_btn() {
-            document.getElementById('btn').style.color ="red";
+            document.getElementById("page__content-quiz-select").style.backgroundColor="red"
+           
         }
     </script>
+    <script src="./switch html/code/code.js"></script>
+</body>
 </html>
