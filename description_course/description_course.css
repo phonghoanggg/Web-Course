@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content__description__course {
+    padding: 0 12px;
+}
+.content__description__course-header {
+    font-size: 40px;
+    padding: 30px 0;
+}
+.content__description__course-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.content__description__course-know,
+.content__description__course-content {
+    padding-top: 30px;
+    font-size: 25px;
+}
+.content__description__course-content {
+    padding-bottom: 30px;
+}
+/* Table */
+.content__description__course-table {
+    padding-top: 20px;
+}
+.content__description__course-table-list {
+    display: flex;
+}
+.content__description__course-table-list > div >li {
+    font-size: 19px;
+    list-style: none;
+    padding: 10px 0;
+    font-weight: 300;
+}
+.content__description__course-table-list-left {
+    padding-right: 60px;
+}
+.content__description__course-table-item i {
+    color: var(--primary-color);
+    padding-right: 10px;
+}
+/* List course */
+.content__description__course-item {
+    display: flex;
+    justify-content: space-between;
+}
+.content__description__course-item span{
+    font-size: 19px;
+    font-weight: 300;
+}
+.content__description__course-item i {
+    font-size: 20px;
+    color: var(--primary-color);
+    padding-right: 10px;
+    opacity: 0.5;
+}
+.content__description__course-list {
+    padding-left: 20px;
+}
+.content__description__course-list ul {
+    list-style: none;
+}
+.content__description__course-list li {
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+.content__description__course-list li:first-child {
+    border-color: transparent;
+}
+/* Content right */
+.gird_colum-3{
+    padding: 0 44px 68px 0;
+}
+.content__description__time-video-img {
+    width: 380px;
+    height: 230px;
+    padding-top: 20px;
+    object-fit: cover;
+    overflow:visible;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+.content__description__time-video {
+    position: relative;
+    cursor: pointer;
+}
+.content__description__time-video i {
+    font-size: 65px;
+    position: absolute;
+    top: 40%;
+    right: 48%;
+    color: #fff;
+}
+.content__description__time-video span {
+    position: absolute;
+    justify-content: center;
+    padding-bottom: 20px;
+    top: 80%;
+    right: 30%;
+    font-size: 20px;
+    color: #fff;
+}
+.content__description__time-header {
+    text-align: center;
+    font-size: 40px;
+    color: var(--primary-color);
+    font-weight: 300;
+}
+.content__description__time-register button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent;
+    color: #fff;
+}
+.content__description__time-register  {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    
+}

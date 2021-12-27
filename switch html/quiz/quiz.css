@@ -65,14 +65,17 @@
     border-radius: 10px;
     background-color: #ccc;
     border-color: transparent;
-    color: #000;
+    /* color: #000; */
 }
 .page__content-quiz-select:hover{
     background-color: var(--primary-color);
     color: #fff;
+    cursor: pointer;
 }
+
 .page__content-quiz-btn {
     justify-content: end;
     display: flex;
     padding-right: 150px;
+   
 }
