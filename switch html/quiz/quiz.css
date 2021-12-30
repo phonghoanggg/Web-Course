@@ -69,6 +69,8 @@
     background-color: #ccc;
     border-color: transparent;
     /* color: #000; */
+
+  
 }
 .page__content-quiz-select:hover{
     background-color: var(--primary-color);
