@@ -25,18 +25,29 @@
 /* Table */
 .content__description__course-table {
     padding-top: 20px;
+    width: 100%;
+    display: block;
 }
 .content__description__course-table-list {
     display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
 }
-.content__description__course-table-list > div >li {
-    font-size: 19px;
+.content__description__course-table-list-right li {
     list-style: none;
     padding: 10px 0;
     font-weight: 300;
+    font-size: 19px;
 }
-.content__description__course-table-list-left {
-    padding-right: 60px;
+.content__description__course-table-item {
+    font-size: 19px;
+    flex-basis: 50%;
+}
+.content__description__course-table-list >li {
+    list-style: none;
+    padding: 10px 0;
+    font-weight: 300;
 }
 .content__description__course-table-item i {
     color: var(--primary-color);

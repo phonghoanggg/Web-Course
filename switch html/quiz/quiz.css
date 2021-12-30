@@ -40,7 +40,7 @@
     margin-top: 20px;
     padding-left: 50px;
 }
-.page__content-quiz-answer h2 {
+.page__content-quiz-answer li {
     border-style: solid;
     border-color: transparent;
     padding: 10px;
@@ -50,7 +50,10 @@
     box-shadow: 3px 3px 3px #dbdbdb;
     display: table;
 }
-.page__content-quiz-answer h2:hover {
+.page__content-quiz-answer-item label {
+    padding-left: 20px;
+}
+.page__content-quiz-answer li:hover {
     cursor: pointer;
     background-color: rgb(224, 224, 224);
 }
@@ -66,6 +69,8 @@
     background-color: #ccc;
     border-color: transparent;
     /* color: #000; */
+
+  
 }
 .page__content-quiz-select:hover{
     background-color: var(--primary-color);
