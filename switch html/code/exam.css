@@ -43,10 +43,9 @@
     height: 200px;
     object-fit: contain;
 }
-.gird_colum-4:hover {
-    /* transform: translateY(-2px);
-    box-shadow: 0 1px 20px 0 rgba(0 ,0 , 0, 0.15); */
 
+.page__exam-course-discrip {
+    height: 60px;
 }
 .page__exam-course-item {
     border-radius: 5px;
@@ -113,5 +112,72 @@
     transition: 0.2s linear;
 
 }
-
-    
+.page__exam-select {
+    padding-right: 40px;
+    text-align: end;
+}
+.page__exam-select span {
+    font-size: 18px;
+    padding-right: 10px;
+}
+.page__exam-select-item {
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(245, 237, 237);
+    font-size: 18px;
+    color: var(--primary-color);
+    background-color: rgb(243, 242, 242);
+    border-radius: 5px;
+    box-shadow: 2px 2px #ccc;
+    border: none;
+    cursor: pointer;
+}
+.page__exam-select-item-scroll {
+      height: 40px;
+      overflow-y: auto;
+}
+  
+/*    */
+.sort-select {
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+}
+.sort-select .click-sort {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 6px 10px 6px 8px;
+}
+.sort-select .sort-show {
+    padding-right: 12px;
+    position: relative;
+}
+.sort-select .sort-show::before {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #333;
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 0;
+}
+.sort-select-main {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    display: none;
+    position: absolute;
+    padding: 0 7px;
+    top: 30px;
+    right: 0;
+    width: 160px;
+    z-index: 2;
+}
+.sort-select-main p {
+    border-bottom: 1px solid #f1f1f1;
+}
