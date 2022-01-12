@@ -2,13 +2,23 @@
     margin: 0;
     padding: 0;
 }
-.page__content__quiz{
+.gird_colum-2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px ;
+}
+.page__content__exam{
     margin: 0;
     padding: 0;
     padding: 50px;
     align-items: flex-start;
 }
-.page__content__quiz h1 {
+.page__content__exam-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page__content__exam h1 {
     line-height: 50px;
     font-size: 30px;
     text-align: center;
@@ -29,6 +39,7 @@
 }
 .page__content-quiz-question-text {
     padding: 15px;
+    width: 720px;
 }
 .page__content-quiz-question-text h2 {
     font-size: 22px;
@@ -51,8 +62,9 @@
     box-shadow: 3px 3px 3px #dbdbdb;
     display: table;
 }
-.page__content-quiz-answer-item label {
-    padding-left: 20px;
+.page__content-quiz-answer-item {
+    height: auto;
+    min-width: 600px;
 }
 .page__content-quiz-answer li:hover {
     cursor: pointer;
@@ -91,12 +103,13 @@
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 20px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     padding-top: 10px;
+    max-width: 720px;
   }
 
 .container input {
@@ -106,7 +119,9 @@
     height: 0;
     width: 0;
   }
-
+.input_check {
+    padding-left: 20px;
+}
 .checkmark {
     position: absolute;
     top: 0;
