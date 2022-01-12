@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
 }
-.page__content {
+.page__content__quiz{
     margin: 0;
     padding: 0;
     padding: 50px;
     align-items: flex-start;
 }
-.page__content h1 {
+.page__content__quiz h1 {
     line-height: 50px;
     font-size: 30px;
+    text-align: center;
 }
 .page__content-page {
     font-size: 18px;

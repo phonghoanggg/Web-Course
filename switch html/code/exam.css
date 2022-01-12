@@ -43,11 +43,7 @@
     height: 200px;
     object-fit: contain;
 }
-.gird_colum-4:hover {
-    /* transform: translateY(-2px);
-    box-shadow: 0 1px 20px 0 rgba(0 ,0 , 0, 0.15); */
 
-}
 .page__exam-course-discrip {
     height: 60px;
 }
@@ -55,7 +51,6 @@
     border-radius: 5px;
     /* box-shadow: 0 1px 1px 1px rgb(226, 225, 225); */
     box-shadow: 0 2px 4px 0 rgba(131, 131, 131, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    height: 404px;
 }
 
 .page__exam-course-header {
@@ -114,5 +109,29 @@
     transition: 0.2s linear;
 
 }
-
-    
+.page__exam-select {
+    padding-right: 40px;
+    text-align: end;
+}
+.page__exam-select span {
+    font-size: 18px;
+    padding-right: 10px;
+}
+.page__exam-select-item {
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(245, 237, 237);
+    font-size: 18px;
+    color: var(--primary-color);
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ccc;
+    border: none;
+    cursor: pointer;
+}
+.page__exam-select-item-scroll {
+      height: 40px;
+      overflow-y: auto;
+}
+  
+  
