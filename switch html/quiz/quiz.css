@@ -39,7 +39,8 @@
 }
 .page__content-quiz-question-text {
     padding: 15px;
-    width: 720px;
+    width: 650px;
+    margin-right: 0;
 }
 .page__content-quiz-question-text h2 {
     font-size: 22px;
@@ -47,6 +48,7 @@
 }
 .page__content-quiz-question-text span {
     font-size: 18px;
+    line-height: 22px;
 }
 .page__content-quiz-answer {
     margin-top: 20px;
@@ -109,7 +111,7 @@
     -ms-user-select: none;
     user-select: none;
     padding-top: 10px;
-    max-width: 720px;
+    max-width: 650px;
   }
 
 .container input {
