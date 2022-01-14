@@ -278,7 +278,7 @@ html::-webkit-scrollbar {
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
-    display: none;
+    /* display: none; */
 }
 
 .header__information-img img {
@@ -451,6 +451,11 @@ html::-webkit-scrollbar {
     line-height: 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(0, 0, 0, 0.05);
+    
+}
+.header__information-user-box-item-save a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
 }
 /* Sidebar-index.html */
 
